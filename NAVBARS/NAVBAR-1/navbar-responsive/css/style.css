@@ -1,0 +1,166 @@
+
+*{
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+body{
+	
+	
+	box-sizing: border-box;
+	font-family: monospace;
+	font-size: 100%;
+	line-height: 1.5em;
+	background-color: wheat;
+}
+
+
+nav ul{
+	
+	
+	
+	list-style-type: none;
+	
+	
+}
+
+nav ul li,div.button{
+	
+	
+	display: block;
+	width: 100%;
+	background-color: #555;
+	text-align: center;
+	line-height: 4em;
+	font-size: 1.2em;
+	
+	
+	
+}
+
+nav ul li a{
+	
+	text-decoration: none;
+	color: red;
+	display: block;
+}
+
+nav ul li a:hover{
+	
+	color: black;
+	border: 2px solid red;
+	border-radius: 0.5em;
+	
+	
+	
+}
+
+
+
+div.button{
+	
+	
+	height: 4em;
+	background-color: #ff0000;
+	border-bottom: 0.5em solid #000;
+	
+}
+
+
+
+
+
+header{
+	
+	
+	
+	margin: 0;
+	background: url('../img/132735.jpg');
+	background-repeat: no-repeat;
+	
+	padding: 3em;
+	
+	background-size: cover;
+	
+	text-align: center;
+	border-bottom: 0.5em solid chocolate;
+	color: white;
+}
+
+header h1{
+	
+	 font-size: 8em;
+	 padding-top: 0.5em;
+	
+	margin-bottom: 0.75em;
+}
+
+
+header p{
+	
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 2em;
+	
+	font-family: famtasy;
+	line-height: 1.2em;
+	
+}
+
+a.btn{
+	
+	
+	
+	display: inline-block;
+	text-transform: uppercase;
+	background-color: red;
+	color: black;
+	
+	margin: 1em;
+	padding: 2em;
+	
+	text-decoration: none;
+	
+	border-radius: 2em;
+	
+	
+	
+}
+
+a.btn:hover{
+	
+	color: white;
+	
+	
+	background-color: black;
+}
+
+
+
+@media screen and (min-width:500px)
+{
+	nav{
+		
+		
+		background-color: #555555;
+	}
+	   nav ul li{
+	   	
+	   	
+	   	display: inline-block;
+	   	width: 8em;
+	   }
+	
+	
+	
+}
+
+
+
+
+
